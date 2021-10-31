@@ -1,0 +1,143 @@
+/*General page styling*/
+
+h1 {
+    padding-left: 100px;
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    
+}
+
+h2 {
+    padding-left: 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.container {
+    border:5px solid #4D5152;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 35px;
+    padding: 2%;  
+}
+
+/*Colours*/
+
+
+.color-panel {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    border-radius: 15%;
+    
+}
+
+.jet-black {
+    background-color: #000000;
+    color: #ffffff;
+    
+
+    
+    
+}
+
+.snow-white {
+    border: 1px solid #4D5152;
+    color: #4D5152;
+   
+    
+}
+
+.green-black {
+    background-color: #043115;
+    color: #BFFF00;
+    
+    
+}
+
+.lime {
+    background-color: #BFFF00;
+    color: #043115;
+    
+}
+
+.trout {
+    background-color: #4D5152;
+    color: #ffffff;
+    
+    
+    
+}
+
+/*Typology*/
+
+.font-panel {
+    font-size: 22px;
+    width: 500px;
+    margin-left: 20px;
+    display: inline-block;
+    
+}
+
+.Raleway {
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.bebas-neue {
+    font-family: 'Bebas Neue', cursive;
+    
+}
+
+.font-title {
+    text-decoration: underline;
+}
+
+.font-bold-style {
+    font-weight: bold;
+}
+
+.font-italic-style {
+    font-style: italic;
+}
+
+/*Text Styles*/
+
+.H1-style {
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.H2-style {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.P-style {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.text-style-info {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.style-panel {
+    display: inline-block;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
