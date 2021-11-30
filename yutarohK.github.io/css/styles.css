@@ -1,0 +1,285 @@
+/*
+
+Font-Family: 'PT Sans', Sans-Serif;
+Font-Size: 46px;
+
+Font-Family: 'Playfair Display', Serif;
+Font-Size: 16px;
+
+*/
+
+body {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+header {
+    height: 64px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-left {
+    display: flex;
+    padding-left: 24px;
+    align-items: center;
+    height: 32px;
+}
+
+.header-left h1 {
+    Font-Family: 'PT Sans', Sans-Serif;
+    font-weight: lighter;
+}
+
+.header-left h1 span {
+    font-weight: 900;
+}
+
+
+nav ul {
+    display: flex;
+    padding-right: 24px;
+}
+
+nav ul li {
+    padding-left: 16px;
+    list-style: none;
+}
+
+nav ul li a {
+    color: black;
+    font-family: 'Playfair Display', Serif;
+    text-decoration: none;
+ 
+}
+
+.banner {
+    display:flex;
+    align-items: center;
+    background-color: rgb(204, 204, 204);
+}
+
+.banner-image {
+    width: 60%;
+    padding: 24px;
+
+}
+
+.banner-image img {
+    max-width: 100%;
+}
+
+
+
+h2 {
+    font-Family: 'PT Sans', Sans-Serif;
+    font-Size: 46px;
+}
+
+.banner-sentense p {
+    font-Family: 'Playfair Display', Serif;
+    font-Size: 20px;
+}
+
+.banner-sentense .click{
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.banner-sentense .click:hover{
+    background-color: rgb(102, 102, 102);
+}
+
+.click a {
+    color: white;
+    font-family: 'Playfair Display', Serif;
+    text-decoration: none;
+}
+
+/*  main information section  */
+
+
+
+.information {
+    display:flex;
+}
+
+.main-information {
+    padding: 32px 24px;
+    border:rgb(231, 231, 231) solid 1px;
+    width: 60%;
+}
+
+.main-information img {
+    max-width: 100%;
+}
+
+.main-information h2 {
+    padding-top: 32px;
+    padding-bottom: 24px;
+    margin: 0 auto;
+}
+
+.main-information-reference {
+    padding-top: 32px;
+}
+
+.aside-information {
+    padding-top: 32px;
+    width: 40%;
+}
+
+.aside-information-content {
+    display: flex;
+    align-items: center;
+    border:rgb(231, 231, 231) solid 1px;
+}
+
+.aside-information-content img {
+    width: 35%;
+    height: auto;
+    padding:16px;
+}
+
+.aside-information-sentense {
+    width:65%;
+}
+
+h3 {
+    font-Family: 'PT Sans', Sans-Serif;
+    font-Size: 35px;
+    margin: 0%;
+}
+
+.aside-information-sentense p {
+    margin: 0%;
+    padding: 8px auto;
+}
+
+.aside-information-sentense p a {
+    text-decoration: none;
+    color: rgba(25, 151, 201, 0.808)
+}
+
+.aside-information-content:hover,.main-information:hover  {
+    background-color: rgb(218, 218, 218);
+}
+
+/* course section */
+
+.course-section  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 72px;
+    background-color: rgb(211, 211, 211);
+}
+
+
+.courses {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.course {
+    width:28%;
+    background-color: white;
+    margin: 20px;
+}
+
+.course img {
+    width: 100%;
+}
+
+.course h3 {
+    font-Family: 'PT Sans', Sans-Serif;
+    font-Size: 25px;
+    padding-top: 16px;
+    padding-left: 18px;
+    padding-bottom: 4px;
+    padding-right: 18px;
+    margin: 0 auto;
+}
+
+h5 {
+    font-family: 'Playfair Display', Serif;
+    padding-left: 18px;
+    padding-bottom: 4px;
+    font-Size: 15px;
+    padding-right: 18px;
+    margin: 0 auto;
+}
+
+.course p {
+    font-family: 'Playfair Display', Serif;
+    padding-left: 18px;
+    padding-bottom: 24px;
+    font-Size: 15px;
+    padding-right: 18px;
+}
+
+
+.exhibit-section {
+    display: flex;
+}
+
+.main-exhibit {
+    width: 60%;
+    padding: 32px 24px;
+}
+
+.main-exhibit h2{
+    margin: 0%;
+    padding-top: 28px;
+    padding-bottom: 8px;
+}
+
+.main-exhibit p {
+    font-Family: 'Playfair Display', Serif;
+}
+
+.aside-exhibit {
+    width:40%;
+    padding: 32px 24px;
+}
+
+.aside-exhibit-content {
+    display: flex;
+    align-items: center;
+}
+
+.aside-exhibit-content img {
+    width: 35%;
+    height: auto;
+    padding: 16px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: rgb(240, 240, 240) solid 1px;
+}
+
+footer p {
+    margin-left: 24px;
+    color: grey;
+}
+
+.footer-section {
+    display: flex;
+    margin-right: 24px;
+    color: grey;
+}
+
+
+    
+
+
